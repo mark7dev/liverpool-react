@@ -9,7 +9,7 @@ class Header extends Component {
                 <div className="search__container">
                     <input id="search__input" type="text" placeholder="¿Qué está buscando?"></input>
                     <button>Agregar a historial 
-                    <i id="iconAdd" class="fa fa-plus" aria-hidden="true"></i>
+                        {/* <i id="iconAdd" className="fa fa-plus-square-o" aria-hidden="true"></i> */}
                     </button>
                 </div>
             </div>
