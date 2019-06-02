@@ -8,9 +8,7 @@ class Header extends Component {
                 <img id="logo" src="https://assets.liverpool.com.mx/assets/web/logos/liverpool_logo.gif" alt="Liverpool"></img>
                 <div className="search__container">
                     <input id="search__input" type="text" placeholder="¿Qué está buscando?"></input>
-                    <button>Agregar a historial 
-                        {/* <i id="iconAdd" className="fa fa-plus-square-o" aria-hidden="true"></i> */}
-                    </button>
+                    <button>Agregar a historial</button>
                 </div>
             </div>
         );

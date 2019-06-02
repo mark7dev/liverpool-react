@@ -6,7 +6,7 @@
     margin-left: 20px;
 }
 
-.item__container {
+.itemSearched__container {
     margin: 5px 20px;
     border: 1px solid white;
     display: flex;
@@ -18,7 +18,7 @@
     opacity: 0.5;
 }
 
-.item__container:hover {
+.itemSearched__container:hover {
     color: white;
     opacity: 1;
     background-color: #E10098;
@@ -31,5 +31,11 @@
 #deleteBtn {
     margin-left: 20px;
     margin-top: 10px;
+    background-color: #E10098;
+    color: white;
+}
+
+#deleteBtn:hover {
+    background-color: #C81685;
 }
 

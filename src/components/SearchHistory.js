@@ -7,41 +7,30 @@ class SearchHistory extends Component {
             <div className="searchHistory">
                 <h3>Mis búsquedas</h3>
                 <div className="itemsSearched__container">
-                    <div className="item__container">
+                    <div className="itemSearched__container">
                         <span>item 1</span>
                         <div className="itemSearched__btns__container">
                             <button className="itemSeachedBtn">
-                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <i className="fa fa-search" aria-hidden="true"></i>
                             </button>
                             <button className="itemSeachedBtn">
-                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                <i className="fa fa-trash" aria-hidden="true"></i>
                             </button>
                         </div>
                     </div>
-                    <div className="item__container">
+                    <div className="itemSearched__container">
                         <span>item 1</span>
                         <div className="itemSearched__btns__container">
                             <button className="itemSeachedBtn">
-                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <i className="fa fa-search" aria-hidden="true"></i>
                             </button>
                             <button className="itemSeachedBtn">
-                                <i class="fa fa-trash" aria-hidden="true"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div className="item__container">
-                        <span>item 1</span>
-                        <div className="itemSearched__btns__container">
-                            <button className="itemSeachedBtn">
-                                <i class="fa fa-search" aria-hidden="true"></i>
-                            </button>
-                            <button className="itemSeachedBtn">
-                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                <i className="fa fa-trash" aria-hidden="true"></i>
                             </button>
                         </div>
                     </div>
                     <button id="deleteBtn">
-                        Borrar historial <i class="fa fa-trash" aria-hidden="true"></i>
+                        Borrar historial <i className="fa fa-trash" aria-hidden="true"></i>
                     </button>
                 </div>
             </div>
