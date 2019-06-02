@@ -1,0 +1,32 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #B3B3B3;
+}
+
+.search__container {
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logo {
+    color: white;
+    padding: 20px;
+}
+
+.header button {
+    background-color: #E10098;
+    color: white;
+}
+
+.header button:hover {
+    background-color: #C81685;
+}
+
+#iconAdd {
+    margin-left: 5px;
+}
