@@ -1,0 +1,33 @@
+.cardsItem__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.cardItem {
+    width: 340px;
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+.cardItem:hover {
+    box-shadow: 10px 10px 5px #e799c2;
+}
+
+.information {
+    font-size: 15px;
+}
+
+.price {
+    color: #FF0000;
+    font-weight: bolder;
+}
+
+.img {
+    width: 300px;
+    height: 210px;
+    margin: 10px;
+}

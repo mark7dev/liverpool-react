@@ -14,7 +14,7 @@
 }
 
 #logo {
-    color: white;
+    /* color: white; */
     padding: 20px;
 }
 
@@ -27,6 +27,6 @@
     background-color: #C81685;
 }
 
-#iconAdd {
+/* #iconAdd {
     margin-left: 5px;
-}
+} */
