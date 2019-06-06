@@ -6,6 +6,26 @@
     margin-left: 20px;
 }
 
+.search__container {
+    /* margin-right: 20px; */
+    margin: 5px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.searchHistory button {
+    background-color: #E10098;
+    color: white;
+}
+
+.searchHistory button:hover {
+    background-color: #C81685;
+}
+
+.searchHistory button:disabled {
+    background-color: #e799c2
+}
+
 .itemSearched__container {
     margin: 5px 20px;
     border: 1px solid white;
@@ -37,5 +57,9 @@
 
 #deleteBtn:hover {
     background-color: #C81685;
+}
+
+#deleteBtn:disabled {
+    background-color: #e799c2
 }
 

@@ -5,7 +5,6 @@ class CardItem extends Component {
     render() {
         console.log(this.props.info)
         const { productDisplayName, productPrice } = this.props.info;
-        // console.log(this.props.info.sku.thumbnailImage)
         return (
             <div className="cardItem">
                 <img className="img" src={this.props.info["sku.thumbnailImage"]} alt=""/>

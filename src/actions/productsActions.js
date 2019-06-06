@@ -10,8 +10,10 @@ export const showProducts = (item) => dispatch => {
             console.log('no cumple');
             dispatch({
                 type: SHOW_PRODUCTS,
-                payload: [{productDisplayName: 'PRODUCTO',
-                            productPrice: 'NO ENCONTRADO'
+                payload: [{
+                    productDisplayName: 'PRODUCTO',
+                    productPrice: 'NO ENCONTRADO',
+                    "sku.thumbnailImage": 'https://unifor88.ca/wp-content/uploads/2018/01/oops.jpg'
                 }]
             })
         } else {

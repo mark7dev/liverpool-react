@@ -7,7 +7,6 @@ import { showProducts } from '../actions/productsActions';
 class Products extends Component {
 
     render() {
-        console.log(this.props)
         const { products } = this.props;
         return (
             <div className="products">
