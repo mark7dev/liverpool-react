@@ -13,9 +13,7 @@ class SearchHistory extends Component {
         }
     }
 
-
     onChangeItem = e => {
-        console.log(e.target.value);
         this.setState({itemSearched: e.target.value})
     }
 
@@ -61,17 +59,13 @@ class SearchHistory extends Component {
 
 
     render() {
-        console.log(this.props);
-        console.log(this.state);
         return (
             <div className="searchHistory">
                 <div className="search__container">
-                    {/* <input id="search__input" type="text" placeholder="¿Qué estas buscando?" onChange={this.onChangeItem} ref="item"/> */}
                     <input id="search__input" type="text" placeholder="¿Qué estas buscando?" onChange={this.onChangeItem}/>
                     <button onClick={this.searchItem} disabled={!this.state.itemSearched}>
                         <i className="fa fa-search" aria-hidden="true"></i>
                     </button>
-                    {/* <button onClick={this.addItemSearched}>Agregar a historial</button> */}
                     <button onClick={this.addItem} name="addBtn" disabled={!this.state.itemSearched}>Agregar a historial</button>
                 </div>
                 

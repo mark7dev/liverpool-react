@@ -7,7 +7,6 @@ export const showProducts = (item) => dispatch => {
     .get(API)
     .then(response => {
         if(response.body.contents === undefined) {
-            console.log('no cumple');
             dispatch({
                 type: SHOW_PRODUCTS,
                 payload: [{
@@ -17,7 +16,6 @@ export const showProducts = (item) => dispatch => {
                 }]
             })
         } else {
-            console.log('cumple');
             dispatch({
                 type: SHOW_PRODUCTS,
                 payload: response.body.contents[0].mainContent[3].contents[0].records
